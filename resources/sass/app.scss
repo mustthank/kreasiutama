@@ -1,0 +1,35 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~vuetify/dist/vuetify.min.css';
+// @import '~bootstrap/scss/bootstrap';
+// @import '~vuetify/src/stylus/main';
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.v-card .v-offset .v-card--material__header.v-card {
+  padding: 15px;
+}
+.v-card--material-stats.v-card .v-card__text {
+  text-align: right;
+  padding-top: 10px;
+  position: relative;
+}
+.v-card--material-stats.v-card .v-offset {
+  position: absolute;
+}
+v-card .v-card__actions {
+  margin: 0 20px 0;
+  padding: 10px 0 10px;
+  line-height: 22px;
+}
